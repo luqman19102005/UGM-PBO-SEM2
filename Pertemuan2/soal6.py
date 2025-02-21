@@ -7,8 +7,8 @@ class manusia:
         print(f"Nama: {self.nama}")
 
     def cetak_umur(self):
-        print(f"Nama: {self.umur}")
+        print(f"Umur: {self.umur}")
 
-x = manusia(input("Masukkan nama: "), input("Masukkan nama: "))
+x = manusia(input("Masukkan nama: "), input("Masukkan umur: "))
 x.cetak_nama()
 x.cetak_umur()
